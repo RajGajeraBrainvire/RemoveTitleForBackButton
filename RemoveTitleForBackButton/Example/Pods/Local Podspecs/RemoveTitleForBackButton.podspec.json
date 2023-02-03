@@ -1,0 +1,22 @@
+{
+  "name": "RemoveTitleForBackButton",
+  "version": "0.1.0",
+  "summary": "A short description of RemoveTitleForBackButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/RajGajeraBrainvire/RemoveTitleForBackButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RajGajeraBrainvire": "raj.gajera@brainvire.com"
+  },
+  "source": {
+    "git": "https://github.com/RajGajeraBrainvire/RemoveTitleForBackButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "RemoveTitleForBackButton/Classes/**/*"
+}

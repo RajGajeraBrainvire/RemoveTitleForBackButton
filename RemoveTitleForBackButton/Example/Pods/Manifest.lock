@@ -1,0 +1,16 @@
+PODS:
+  - RemoveTitleForBackButton (0.1.0)
+
+DEPENDENCIES:
+  - RemoveTitleForBackButton (from `../`)
+
+EXTERNAL SOURCES:
+  RemoveTitleForBackButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RemoveTitleForBackButton: 244071faf6f5347786c4863983fc77a9eb48a0b5
+
+PODFILE CHECKSUM: 8339bf05d0871dad119f753f8c338388c2c91e7c
+
+COCOAPODS: 1.11.3

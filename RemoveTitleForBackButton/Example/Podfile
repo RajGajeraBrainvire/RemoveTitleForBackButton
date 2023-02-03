@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RemoveTitleForBackButton_Example' do
+  pod 'RemoveTitleForBackButton', :path => '../'
+
+  target 'RemoveTitleForBackButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
