@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RemoveTitleForBackButton'
   s.version          = '0.1.0'
-  s.summary          = 'This cocoapods library helps you to perform remove navigation bar Title remove from whole app.'
+  s.summary          = 'Remove back button title.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This cocoapods library helps you to perform remove navigation bar Title remove from whole app.'
 
   s.homepage         = 'https://github.com/RajGajeraBrainvire/RemoveTitleForBackButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -31,6 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
   s.platform     = :ios
   s.platform     = :ios, '9.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'RemoveTitleForBackButton/Classes/**/*'
   
