@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RemoveTitleForBackButton'
   s.version          = '0.1.0'
-  s.summary          = 'Remove Back button title.'
+  s.summary          = 'This cocoapods library helps you to perform remove navigation bar Title remove from whole app.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,6 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
+  s.platform     = :ios
+  s.platform     = :ios, '5.0'
 
   s.source_files = 'RemoveTitleForBackButton/Classes/**/*'
   
