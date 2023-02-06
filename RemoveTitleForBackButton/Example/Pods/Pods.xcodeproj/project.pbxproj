@@ -11,7 +11,6 @@
 		2B6B1CD5F05052D6D41B2718A8F03040 /* RemoveTitleForBackButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E5B1E9AD2EF6A2521F27D6929EAC2D /* RemoveTitleForBackButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40408ADD2DA1D00ECA40B325028EA876 /* Pods-RemoveTitleForBackButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2CE00A155D3322638538D7A2FCBAA4 /* Pods-RemoveTitleForBackButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E52621AB72A9D6341155BEED06040BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		52EE7E3E2F221A2FF52D3C3B59FE764D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6720CFDAF1DC314E3CEC1F202E1C8222 /* ReplaceMe.swift */; };
 		584D8D635FD9E808D5182AB3F46A5FDB /* Pods-RemoveTitleForBackButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8188DF22A3B51EDC749AEA1A5F2F0C54 /* Pods-RemoveTitleForBackButton_Tests-dummy.m */; };
 		603177B96B27B789BD39B225215CABB0 /* RemoveTitleForBackButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DAF416F2FCAECE49F202FDDFCC20AB /* RemoveTitleForBackButton-dummy.m */; };
 		692E9691DBBAB92F3ACE811467041B17 /* Pods-RemoveTitleForBackButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D85CD89CEC3AEB834F112CAB95C100C /* Pods-RemoveTitleForBackButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,7 +44,6 @@
 		2F4CAB905EDBED9352B49C81671DFF26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		598ADD3BC3A55ECCD53CECAB79F20EC6 /* Pods-RemoveTitleForBackButton_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RemoveTitleForBackButton_Tests"; path = Pods_RemoveTitleForBackButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A1722DDD984FCD83F148F3D39C7F1A /* RemoveTitleForBackButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RemoveTitleForBackButton-prefix.pch"; sourceTree = "<group>"; };
-		6720CFDAF1DC314E3CEC1F202E1C8222 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RemoveTitleForBackButton/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		69E5B1E9AD2EF6A2521F27D6929EAC2D /* RemoveTitleForBackButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RemoveTitleForBackButton-umbrella.h"; sourceTree = "<group>"; };
 		6D85CD89CEC3AEB834F112CAB95C100C /* Pods-RemoveTitleForBackButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RemoveTitleForBackButton_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -178,7 +176,7 @@
 		C6E92D2E2A2F67899C9517F122D11BD5 /* RemoveTitleForBackButton */ = {
 			isa = PBXGroup;
 			children = (
-				6720CFDAF1DC314E3CEC1F202E1C8222 /* ReplaceMe.swift */,
+				AD51BA14298D3870001204AB /* RemoveBackButtonTitle.swift */,
 				EF734D9F6C3ADA25BCF022FA77EF4F59 /* Pod */,
 				1B2768A871A8FDC48245D3439C18B2C2 /* Support Files */,
 			);
@@ -218,7 +216,6 @@
 		EF734D9F6C3ADA25BCF022FA77EF4F59 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AD51BA14298D3870001204AB /* RemoveBackButtonTitle.swift */,
 				7D84AE7C8B14D5CD90D3124AF5DBB1AA /* LICENSE */,
 				2F4CAB905EDBED9352B49C81671DFF26 /* README.md */,
 				86ED13F6211F0F9594697FF3B1FB275B /* RemoveTitleForBackButton.podspec */,
@@ -388,7 +385,6 @@
 			files = (
 				AD51BA15298D3870001204AB /* RemoveBackButtonTitle.swift in Sources */,
 				603177B96B27B789BD39B225215CABB0 /* RemoveTitleForBackButton-dummy.m in Sources */,
-				52EE7E3E2F221A2FF52D3C3B59FE764D /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

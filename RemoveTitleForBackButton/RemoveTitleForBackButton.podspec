@@ -24,7 +24,6 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'RajGajeraBrainvire' => 'raj.gajera@brainvire.com' }
   s.source           = { :git => 'https://github.com/RajGajeraBrainvire/RemoveTitleForBackButton.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
   s.platform     = :ios
